@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/stroller-dataset-0.4.0.json",
+  "title": "Stroller Dataset Snapshot",
+  "type": "object",
+  "required": [
+    "extracted_date",
+    "strollers",
+    "summary",
+    "schema"
+  ],
+  "properties": {
+    "extracted_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "strollers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Stroller"
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "schema": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "FieldWithProvenance": {
+      "type": "object",
+      "required": [
+        "confidence"
+      ],
+      "properties": {
+        "value": {},
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "raw": {},
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "missing_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "excluded_from_recommendations": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "provenance": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "DimensionsIn": {
+      "type": "object",
+      "required": [
+        "length",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "length": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "width": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "height": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "Stroller": {
+      "type": "object",
+      "required": [
+        "product_id",
+        "brand",
+        "model",
+        "variant",
+        "region",
+        "stroller_weight_lb",
+        "max_child_weight_lb",
+        "seat_reversible",
+        "travel_system_compatibility",
+        "sources",
+        "intended_use_category",
+        "source_accessed_at"
+      ],
+      "properties": {
+        "product_id": {
+          "type": "string"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "stroller_weight_lb": {
+          "$ref": "#/$defs/FieldWithProvenance"
+        },
+        "folded_dimensions_in": {
+          "$ref": "#/$defs/DimensionsIn"
+        },
+        "unfolded_dimensions_in": {
+          "$ref": "#/$defs/DimensionsIn"
+        },
+        "max_child_weight_lb": {
+          "$ref": "#/$defs/FieldWithProvenance"
+        },
+        "seat_reversible": {
+          "$ref": "#/$defs/FieldWithProvenance"
+        },
+        "travel_system_compatibility": {
+          "$ref": "#/$defs/FieldWithProvenance"
+        },
+        "sources": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "configuration_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intended_use_category": {
+          "type": "string"
+        },
+        "source_accessed_at": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

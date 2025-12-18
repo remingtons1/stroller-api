@@ -1,0 +1,2133 @@
+{
+  "extracted_date": "2025-12-14",
+  "strollers": [
+    {
+      "product_id": "uppababy_cruz_v2_us",
+      "brand": "UPPAbaby",
+      "model": "Cruz V2",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 25.5,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high",
+        "notes": "Frame + seat + canopy; bumper bar inclusion unverified"
+      },
+      "folded_dimensions_in": {
+        "length": 16.5,
+        "width": 22.8,
+        "height": 32.5,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "unfolded_dimensions_in": {
+        "length": 37.5,
+        "width": 22.8,
+        "height": 40.5,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": 7,
+        "rear": 10,
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "suspension_type": {
+        "value": "rear_wheel",
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high",
+        "raw": "dual_rear"
+      },
+      "handlebar_type": {
+        "value": "telescoping",
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Mesa direct; Chicco/Maxi-Cosi/Nuna/Cybex/Peg Perego with adapters",
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "medium",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://uppababy.com/cruz/",
+        "manufacturer_manual_pdf": null,
+        "third_party": []
+      },
+      "configuration_scope": "frame + seat + canopy; bumper bar unverified",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "one-step self-standing",
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "standing"
+        ],
+        "raw": "one-step self-standing",
+        "source_url": "https://uppababy.com/cruz/",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "bob_alterrain_pro_us",
+      "brand": "BOB Gear",
+      "model": "Alterrain Pro",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 32.3,
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "high",
+        "notes": "Frame + seat + canopy + air-filled wheels"
+      },
+      "folded_dimensions_in": {
+        "length": 39.3,
+        "width": 25.5,
+        "height": 16,
+        "source_url": "https://www.westcoastkids.ca/alterrain-pro-stroller",
+        "confidence": "medium",
+        "notes": "Wheels on"
+      },
+      "unfolded_dimensions_in": {
+        "length": 46,
+        "width": 25.5,
+        "height": 45.5,
+        "source_url": "https://www.westcoastkids.ca/alterrain-pro-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 75,
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "high",
+        "notes": "Jogging stroller - forward-facing only"
+      },
+      "wheel_diameters_in": {
+        "front": 12,
+        "rear": 16,
+        "source_url": "https://www.westcoastkids.ca/alterrain-pro-stroller",
+        "confidence": "medium"
+      },
+      "suspension_type": {
+        "value": "adjustable",
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "high",
+        "raw": "SmoothShox adjustable"
+      },
+      "handlebar_type": {
+        "value": "9-position adjustable (31-48 in)",
+        "source_url": "https://www.westcoastkids.ca/alterrain-pro-stroller",
+        "confidence": "medium"
+      },
+      "travel_system_compatibility": {
+        "value": "Britax/Graco/Chicco/Peg Perego/UPPAbaby/Cybex/Maxi-Cosi/Nuna with adapters",
+        "source_url": "https://snugglebugz.ca/blogs/learning-centre/bob-alterrain-pro-vs-revolution-flex-3-0-jogging-stroller",
+        "confidence": "medium"
+      },
+      "terrain_tags": {
+        "value": [
+          "all_terrain",
+          "jogging"
+        ],
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/bob-alterrain-pro",
+        "confidence": "low",
+        "raw": [
+          "all-terrain",
+          "jogging",
+          "trails"
+        ],
+        "notes": "; 'trail' removed (use intended_use_category + all_terrain)"
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.bobgear.com/store/alterrain-pro",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.westcoastkids.ca/alterrain-pro-stroller",
+          "https://snugglebugz.ca/blogs/learning-centre/bob-alterrain-pro-vs-revolution-flex-3-0-jogging-stroller",
+          "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/bob-alterrain-pro"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy + air-filled wheels",
+      "intended_use_category": "jogging",
+      "fold_mechanism": {
+        "value": "two_step",
+        "raw": "two-step",
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "two-step",
+        "source_url": "https://www.bobgear.com/store/alterrain-pro",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "baby_jogger_summit_x3_us",
+      "brand": "Baby Jogger",
+      "model": "Summit X3",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 28.44,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SAP_1959390.html",
+        "confidence": "high",
+        "raw": "Stroller Weight: 28.44 lb"
+      },
+      "folded_dimensions_in": {
+        "length": 34.6,
+        "width": 25.7,
+        "height": 15.35,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SAP_1959390.html",
+        "confidence": "medium",
+        "notes": "Dimensions from retailer specs; consistent across multiple sources"
+      },
+      "unfolded_dimensions_in": {
+        "length": 49.75,
+        "width": 25,
+        "height": 40,
+        "source_url": "https://www.swaddlesbaby.com/products/baby-jogger-summit-x3-single-jogging-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 75,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "high",
+        "notes": "Jogging stroller - forward-facing only"
+      },
+      "wheel_diameters_in": {
+        "front": 12,
+        "rear": 16,
+        "source_url": "https://littlefolksnyc.com/products/baby-jogger-summit-x3",
+        "confidence": "medium"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "high",
+        "raw": "all-wheel independent"
+      },
+      "handlebar_type": {
+        "value": "fixed (40.5 in)",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/baby-jogger-summit-x3",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "Baby Jogger/Graco with adapters",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "all_terrain",
+          "jogging"
+        ],
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "high",
+        "raw": [
+          "all-terrain",
+          "jogging"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.momsstrollerreviews.com/baby-jogger-summit-x3-stroller-review/",
+          "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/baby-jogger-summit-x3",
+          "https://www.swaddlesbaby.com/products/baby-jogger-summit-x3-single-jogging-stroller",
+          "https://littlefolksnyc.com/products/baby-jogger-summit-x3"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy + air-filled wheels",
+      "intended_use_category": "jogging",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "quick-fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "quick-fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/jogging/summit-x3/summit-x3-jogging-stroller/SP_20831.html",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "baby_jogger_city_mini_gt2_us",
+      "brand": "Baby Jogger",
+      "model": "City Mini GT2",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 22,
+        "source_url": "https://pishposhbaby.com/products/baby-jogger-city-mini-gt2-2021-stroller",
+        "confidence": "medium",
+        "notes": "Frame + seat + canopy + forever-air wheels"
+      },
+      "folded_dimensions_in": {
+        "length": 30.7,
+        "width": 25.6,
+        "height": 10.4,
+        "source_url": "https://pishposhbaby.com/products/baby-jogger-city-mini-gt2-2021-stroller",
+        "confidence": "medium"
+      },
+      "unfolded_dimensions_in": {
+        "length": 41.3,
+        "width": 25.6,
+        "height": 43.1,
+        "source_url": "https://pishposhbaby.com/products/baby-jogger-city-mini-gt2-2021-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 65,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "Forever-air rubber wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable pivoting (30-43.5 in)",
+        "source_url": "https://www.littlebabygear.com/baby-jogger-city-mini-gt/",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "Baby Jogger included; Britax/Chicco/Cybex/Graco/Maxi-Cosi/Nuna/Peg-Perego/UPPAbaby/Clek with adapters",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/baby-jogger-city-mini-gt2",
+        "confidence": "low"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "light_uneven"
+        ],
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/baby-jogger-city-mini-gt2",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "light-uneven"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://pishposhbaby.com/products/baby-jogger-city-mini-gt2-2021-stroller",
+          "https://www.littlebabygear.com/baby-jogger-city-mini-gt/",
+          "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/baby-jogger-city-mini-gt2"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy + forever-air wheels",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "in-seat fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "in_seat"
+        ],
+        "raw": "in-seat fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-mini-gt2-stroller/SP_255263.html",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "baby_jogger_city_select_2_us",
+      "brand": "Baby Jogger",
+      "model": "City Select 2",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 26.4,
+        "source_url": "https://strolleria.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium",
+        "notes": "Single seat configuration; frame + 1 seat + canopy"
+      },
+      "folded_dimensions_in": {
+        "length": 39.6,
+        "width": 23.8,
+        "height": 11.6,
+        "source_url": "https://strolleria.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium"
+      },
+      "unfolded_dimensions_in": {
+        "length": 44.4,
+        "width": 23.8,
+        "height": 41.1,
+        "source_url": "https://strolleria.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 45,
+        "source_url": "https://strolleria.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium",
+        "notes": "Per seat; 24 configurations available"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": 8,
+        "rear": 12,
+        "source_url": "https://www.cityselectstrollers.com/2022-baby-jogger-city-select-2-double-stroller-radiant-slate-gray/",
+        "confidence": "medium"
+      },
+      "suspension_type": {
+        "value": "front_wheel",
+        "source_url": "https://littlefolksnyc.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium",
+        "raw": "front-wheel"
+      },
+      "handlebar_type": {
+        "value": "telescoping adjustable",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Baby Jogger/Britax/Chicco/Graco/Nuna/UPPAbaby with adapters",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "light_uneven"
+        ],
+        "source_url": "https://littlefolksnyc.com/products/baby-jogger-city-select-2-stroller",
+        "confidence": "medium",
+        "raw": [
+          "urban",
+          "light-uneven"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://strolleria.com/products/baby-jogger-city-select-2-stroller",
+          "https://www.cityselectstrollers.com/2022-baby-jogger-city-select-2-double-stroller-radiant-slate-gray/",
+          "https://littlefolksnyc.com/products/baby-jogger-city-select-2-stroller"
+        ]
+      },
+      "configuration_scope": "single_seat_mode; frame + 1 seat + canopy",
+      "intended_use_category": "modular",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "compact fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact fold",
+        "source_url": "https://www.babyjogger.com/strollers/shop-all-strollers/all-terrain/city-select-2/city-select-2-stroller/SP_1397010.html",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "mockingbird_single_to_double_us",
+      "brand": "Mockingbird",
+      "model": "Single-to-Double",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 27,
+        "source_url": "https://hellomockingbird.com/pages/faq",
+        "confidence": "high",
+        "notes": "Single mode: frame + 1 seat + bumper bar + canopy + wheels; 35 lbs in double mode"
+      },
+      "folded_dimensions_in": {
+        "length": 34,
+        "width": 25.5,
+        "height": 18,
+        "source_url": "https://hellomockingbird.com/pages/faq",
+        "confidence": "high"
+      },
+      "unfolded_dimensions_in": {
+        "length": 33,
+        "width": 25.5,
+        "height": 40,
+        "source_url": "https://hellomockingbird.com/pages/faq",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://hellomockingbird.com/products/mockingbird-double-stroller",
+        "confidence": "high",
+        "notes": "Single mode; 45 lbs per seat in double mode"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://hellomockingbird.com/products/mockingbird-double-stroller",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "EVA foam never-flat wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://hellomockingbird.com/products/mockingbird-double-stroller",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "rotating adjustable (6 positions)",
+        "source_url": "https://hellomockingbird.com/pages/faq",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Chicco/Graco/Nuna/UPPAbaby/Britax/Cybex/Maxi-Cosi/Baby Jogger/Clek with adapters (40+ models)",
+        "source_url": "https://hellomockingbird.com/pages/faq",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.thebump.com/a/mockingbird-stroller-review",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://hellomockingbird.com/pages/faq",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.thebump.com/a/mockingbird-stroller-review"
+        ]
+      },
+      "configuration_scope": "single_seat_mode; frame + 1 seat + bumper bar + canopy",
+      "intended_use_category": "modular",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "one-hand fold",
+        "source_url": "https://hellomockingbird.com/products/mockingbird-double-stroller",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "one-hand fold",
+        "source_url": "https://hellomockingbird.com/products/mockingbird-double-stroller",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "evenflo_pivot_xpand_gold_us",
+      "brand": "Evenflo",
+      "model": "Gold Pivot Xpand",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 28.6,
+        "source_url": "https://www.evenflo.com/travel-system/xpand/57112254.html",
+        "confidence": "high",
+        "raw": "Stroller frame + toddler seat \u2013 28.6 lbs",
+        "configuration_scope": "frame + toddler seat; car seat separate"
+      },
+      "folded_dimensions_in": {
+        "length": 31.5,
+        "width": 26.5,
+        "height": 18.5,
+        "source_url": "https://www.evenflo.com/products/gold-pivot-xpand-car-seats-and-stroller-travel-systems",
+        "confidence": "high"
+      },
+      "unfolded_dimensions_in": {
+        "length": 49,
+        "width": 26.5,
+        "height": 56,
+        "source_url": "https://www.evenflo.com/products/gold-pivot-xpand-car-seats-and-stroller-travel-systems",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 55,
+        "source_url": "https://www.evenflo.com/products/pivot-xpand-modular-single-double-strollers",
+        "confidence": "high",
+        "notes": "Per seat; same capacity for both seats"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://www.evenflo.com/products/pivot-xpand-modular-single-double-strollers",
+        "confidence": "high",
+        "notes": "Parent-facing, world-facing, lay-flat carriage mode; 22 configurations"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "EVA foam wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "none",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/evenflo-pivot-xpand",
+        "confidence": "low",
+        "raw": "none"
+      },
+      "handlebar_type": {
+        "value": "3-position adjustable",
+        "source_url": "https://www.lucieslist.com/review/evenflo-pivot-xpand-modular-stroller-review/",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "Evenflo LiteMax/SafeMax/SecureMax direct; Chicco KeyFit/Graco SnugRide/Peg Perego with adapters",
+        "source_url": "https://www.evenflo.com/products/pivot-xpand-modular-single-double-strollers",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.lucieslist.com/review/evenflo-pivot-xpand-modular-stroller-review/",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.evenflo.com/products/gold-pivot-xpand-car-seats-and-stroller-travel-systems",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.littlebabygear.com/evenflo-pivot-xpand-modular/",
+          "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/evenflo-pivot-xpand",
+          "https://www.lucieslist.com/review/evenflo-pivot-xpand-modular-stroller-review/"
+        ]
+      },
+      "configuration_scope": "single_seat_mode; frame + 1 toddler seat",
+      "intended_use_category": "modular",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "compact fold",
+        "source_url": "https://www.evenflo.com/products/pivot-xpand-modular-single-double-strollers",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact fold",
+        "source_url": "https://www.evenflo.com/products/pivot-xpand-modular-single-double-strollers",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "graco_modes_nest_us",
+      "brand": "Graco",
+      "model": "Modes Nest",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 22,
+        "source_url": "https://www.kohls.com/product/prd-5856715/graco-modes-nest-3in1-stroller.jsp",
+        "confidence": "medium",
+        "notes": "Stroller only; travel system is 34.6 lbs total"
+      },
+      "folded_dimensions_in": {
+        "length": 38.75,
+        "width": 25.75,
+        "height": 19.75,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "From third-party review; manufacturer does not publish folded dims",
+        "missing_reason": "Manufacturer does not publish official folded dimensions"
+      },
+      "unfolded_dimensions_in": {
+        "length": 50.4,
+        "width": 26.4,
+        "height": 50.3,
+        "source_url": "https://www.macrobaby.com/products/graco-premier-modes-nest-3-in-1-travel-system-midtown",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "confidence": "high",
+        "notes": "Slide2Me 3-height adjustment"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "Foam-filled plastic wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "none",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/graco-modes-nest-stroller",
+        "confidence": "low",
+        "raw": "none"
+      },
+      "handlebar_type": {
+        "value": "fixed",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/graco-modes-nest-stroller",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "All Graco infant car seats direct (no adapters needed)",
+        "source_url": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/graco-modes-nest-stroller",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.kohls.com/product/prd-5856715/graco-modes-nest-3in1-stroller.jsp",
+          "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/graco-modes-nest-stroller",
+          "https://www.macrobaby.com/products/graco-premier-modes-nest-3-in-1-travel-system-midtown"
+        ]
+      },
+      "configuration_scope": "stroller_only; excludes car seat",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "self-standing fold",
+        "source_url": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "standing"
+        ],
+        "raw": "self-standing fold",
+        "source_url": "https://www.gracobaby.com/shop/strollers/full-size-strollers/modes-nest-stroller/SP_1961558.html",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": false,
+        "reason": [
+          "folded_dimensions: missing or low confidence"
+        ]
+      }
+    },
+    {
+      "product_id": "chicco_bravo_trio_us",
+      "brand": "Chicco",
+      "model": "Bravo Trio",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 24.9,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high",
+        "notes": "Toddler stroller assembled; frame only is 20 lbs"
+      },
+      "folded_dimensions_in": {
+        "length": 15,
+        "width": 22.8,
+        "height": 29,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high",
+        "notes": "Child tray removed"
+      },
+      "unfolded_dimensions_in": {
+        "length": 35.2,
+        "width": 22.8,
+        "height": 42.7,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": 7.5,
+        "rear": 10.3,
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/bravo-sport-travel-system/87107.html",
+        "confidence": "high"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "3-position adjustable (38-42 in)",
+        "source_url": "https://www.momsstrollerreviews.com/new-chicco-bravo-trio-travel-system-review/",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "Chicco KeyFit 30 direct (clicks into child tray, no adapter)",
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.momsstrollerreviews.com/new-chicco-bravo-trio-travel-system-review/",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.momsstrollerreviews.com/new-chicco-bravo-trio-travel-system-review/"
+        ]
+      },
+      "configuration_scope": "toddler_stroller_assembled; frame only is 20 lbs",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "one-hand quick fold",
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "one-hand quick fold",
+        "source_url": "https://www.chiccousa.com/shop-our-products/travel-systems/all-travel-systems/bravo-trio-travel-system/79632.html",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "britax_b_lively_us",
+      "brand": "Britax",
+      "model": "B-Lively Travel System",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 20,
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "high",
+        "notes": "Lightweight design; includes seat + canopy"
+      },
+      "folded_dimensions_in": {
+        "length": 29,
+        "width": 23,
+        "height": 12,
+        "source_url": "https://kidtravel.org/strollers/britax-b-lively-stroller-review/",
+        "confidence": "low"
+      },
+      "unfolded_dimensions_in": {
+        "length": 33,
+        "width": 23,
+        "height": 40,
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 55,
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-lightweight-stroller",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "Foam-filled plastic; dual front wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "fixed",
+        "source_url": "https://kidtravel.org/strollers/britax-b-lively-stroller-review/",
+        "confidence": "low"
+      },
+      "travel_system_compatibility": {
+        "value": "All Britax infant car seats direct (adapters included)",
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/britax-b-lively",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://kidtravel.org/strollers/britax-b-lively-stroller-review/",
+          "https://www.babygearlab.com/reviews/getting-around/full-size-stroller/britax-b-lively"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "quick-fold",
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "quick-fold",
+        "source_url": "https://us.britax.com/shop/retired/britax-b-lively-b-safe-gen2-travel-system",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": false,
+        "reason": [
+          "folded_dimensions: missing or low confidence"
+        ]
+      }
+    },
+    {
+      "product_id": "ergobaby_metro_plus_us",
+      "brand": "Ergobaby",
+      "model": "Metro+",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 17.2,
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high",
+        "raw": "7.8 kg",
+        "notes": "Converted from 7.8 kg; US site confirms same spec"
+      },
+      "folded_dimensions_in": {
+        "length": 21.5,
+        "width": 17.0,
+        "height": 9.0,
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "medium",
+        "notes": "Approximate; fits most airplane overhead bins per manufacturer claim"
+      },
+      "unfolded_dimensions_in": {
+        "length": 34,
+        "width": 17,
+        "height": 41,
+        "source_url": "https://www.babycantravel.com/ergobaby-metro-stroller/",
+        "confidence": "low",
+        "notes": "Height at highest handlebar setting"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high",
+        "notes": "Compact stroller design"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low",
+        "notes": "Rubber puncture-resistant wheels; exact diameter not specified"
+      },
+      "suspension_type": {
+        "value": "four_wheel_spring",
+        "source_url": "https://ergobaby.eu/the-metro-plus-stroller",
+        "confidence": "low",
+        "raw": "4-wheel spring",
+        "provenance": {
+          "source_region": "EU",
+          "target_region": "US",
+          "region_mismatch": true
+        },
+        "excluded_from_recommendations": true,
+        "exclusion_reason": "region_mismatch: EU source for US market"
+      },
+      "handlebar_type": {
+        "value": "adjustable (37.8-41.3 in)",
+        "source_url": "https://ergobaby.eu/the-metro-plus-stroller",
+        "confidence": "low",
+        "provenance": {
+          "source_region": "EU",
+          "target_region": "US",
+          "region_mismatch": true
+        },
+        "excluded_from_recommendations": true,
+        "exclusion_reason": "region_mismatch: EU source for US market"
+      },
+      "travel_system_compatibility": {
+        "value": "Cybex/Maxi-Cosi/BeSafe/Nuna/Britax/Avionaut with adapters",
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://annainthehouse.com/ergobaby-metro-stroller-review/",
+        "confidence": "low",
+        "raw": [
+          "urban",
+          "smooth",
+          "travel"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://ergobaby.com/the-metro-plus-stroller",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.babycantravel.com/ergobaby-metro-stroller/",
+          "https://ergobaby.eu/the-metro-plus-stroller",
+          "https://annainthehouse.com/ergobaby-metro-stroller-review/"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy; compact travel config",
+      "intended_use_category": "travel",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "compact travel fold",
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact travel fold",
+        "source_url": "https://ergobaby.com/the-metro-plus-stroller",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": true,
+        "mismatched_fields": [
+          "suspension_type",
+          "handlebar_type"
+        ]
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "bugaboo_fox_5_us",
+      "brand": "Bugaboo",
+      "model": "Fox 5",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 26.9,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/bugaboo-fox-5-bassinet-and-seat-stroller-PM006095.html",
+        "confidence": "high",
+        "raw": "With seat: 12.2 kg/26.9 lbs",
+        "notes": "With seat; 28.6 lbs with bassinet",
+        "configuration_scope": "frame + seat + canopy"
+      },
+      "folded_dimensions_in": {
+        "length": 17.3,
+        "width": 23.6,
+        "height": 35.4,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high",
+        "notes": "One-piece fold"
+      },
+      "unfolded_dimensions_in": {
+        "length": 36.6,
+        "width": 23.6,
+        "height": 41.3,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": 7,
+        "rear": 12,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high",
+        "raw": "4-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable leather",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Bugaboo Turtle series by Nuna, Clek, Cybex, Maxi-Cosi, Nuna with adapters",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "light_uneven"
+        ],
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "medium",
+        "raw": [
+          "all-terrain"
+        ],
+        "notes": "; all_terrain downgraded - air tires/suspension not verified"
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "manufacturer_manual_pdf": null,
+        "third_party": []
+      },
+      "configuration_scope": "frame + seat + canopy",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "one-piece or two-piece fold",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "one-piece or two-piece fold",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-fox-5/",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "bugaboo_butterfly_us",
+      "brand": "Bugaboo",
+      "model": "Butterfly",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 16.1,
+        "source_url": "https://www.bambibaby.com/products/bugaboo-butterfly-stroller",
+        "confidence": "medium",
+        "notes": "Excluding rain cover; 7.3 kg"
+      },
+      "folded_dimensions_in": {
+        "length": 17.7,
+        "width": 9.1,
+        "height": 21.3,
+        "source_url": "https://www.bambibaby.com/products/bugaboo-butterfly-stroller",
+        "confidence": "medium",
+        "notes": "Most compact folded; 45 x 23 x 54 cm"
+      },
+      "unfolded_dimensions_in": {
+        "length": 36.4,
+        "width": 17.7,
+        "height": 40.3,
+        "source_url": "https://www.bambibaby.com/products/bugaboo-butterfly-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "high",
+        "notes": "Compact travel stroller"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "high",
+        "raw": "4-wheel"
+      },
+      "handlebar_type": {
+        "value": "fixed",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "medium"
+      },
+      "travel_system_compatibility": {
+        "value": "Bugaboo Turtle Air/One by Nuna, Clek, Cybex, Maxi-Cosi with adapters",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/travel-stroller/bugaboo-butterfly",
+        "confidence": "low"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "medium",
+        "raw": [
+          "urban",
+          "smooth"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.bambibaby.com/products/bugaboo-butterfly-stroller",
+          "https://www.babygearlab.com/reviews/getting-around/travel-stroller/bugaboo-butterfly"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy; excludes rain cover",
+      "intended_use_category": "travel",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "compact one-hand fold",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact one-hand fold",
+        "source_url": "https://www.bugaboo.com/us-en/strollers/bugaboo-butterfly/",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "nuna_mixx_next_us",
+      "brand": "Nuna",
+      "model": "MIXX Next",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 28.3,
+        "source_url": "https://nunababy.com/usa/mixx-next-compact-stroller",
+        "confidence": "high",
+        "notes": "Without arm bar and insert; arm bar adds ~0.7 lb"
+      },
+      "folded_dimensions_in": {
+        "length": 27.5,
+        "width": 23.6,
+        "height": 19,
+        "source_url": "https://nunababy.com/usa/mixx-next-compact-stroller",
+        "confidence": "high"
+      },
+      "unfolded_dimensions_in": {
+        "length": 32.7,
+        "width": 23.6,
+        "height": 45.3,
+        "source_url": "https://nunababy.com/usa/mixx-next-compact-stroller",
+        "confidence": "high"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable leatherette",
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "All Nuna PIPA series direct (ring adapter included)",
+        "source_url": "https://nunababy.com/usa/mixx-next-compact-stroller",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "light_uneven"
+        ],
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "medium",
+        "raw": [
+          "all-terrain"
+        ],
+        "notes": "; all_terrain downgraded - air tires/suspension not verified"
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://nunababy.com/usa/mixx-next-compact-stroller",
+        "manufacturer_manual_pdf": null,
+        "third_party": []
+      },
+      "configuration_scope": "frame + seat; excludes arm bar (~0.7 lb)",
+      "intended_use_category": "full_size",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "one-hand fold self-standing",
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "standing"
+        ],
+        "raw": "one-hand fold self-standing",
+        "source_url": "https://nunababy.com/products/mixx-next",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "nuna_trvl_us",
+      "brand": "Nuna",
+      "model": "TRVL",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 13.6,
+        "source_url": "https://nunababy.com/usa/trvl-easy-fold-compact-stroller",
+        "confidence": "high",
+        "notes": "Without canopy and arm bar"
+      },
+      "folded_dimensions_in": {
+        "length": 24,
+        "width": 20.25,
+        "height": 11,
+        "source_url": "https://babyongrand.com/products/nuna-trvl-compact-self-folding-stroller",
+        "confidence": "medium",
+        "notes": "Without arm bar"
+      },
+      "unfolded_dimensions_in": {
+        "length": 32.5,
+        "width": 20.25,
+        "height": 44,
+        "source_url": "https://babyongrand.com/products/nuna-trvl-compact-self-folding-stroller",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 50,
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "high",
+        "notes": "Compact travel stroller"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "high",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable",
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "medium"
+      },
+      "travel_system_compatibility": {
+        "value": "All Nuna PIPA series direct (no adapters needed)",
+        "source_url": "https://nunababy.com/usa/trvl-easy-fold-compact-stroller",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "medium",
+        "raw": [
+          "urban",
+          "smooth",
+          "travel"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://nunababy.com/usa/trvl-easy-fold-compact-stroller",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://babyongrand.com/products/nuna-trvl-compact-self-folding-stroller"
+        ]
+      },
+      "configuration_scope": "frame + seat; excludes canopy and arm bar",
+      "intended_use_category": "travel",
+      "fold_mechanism": {
+        "value": "self_folding",
+        "raw": "compact self-folding",
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact self-folding",
+        "source_url": "https://nunababy.com/products/trvl",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "babyzen_yoyo2_us",
+      "brand": "Babyzen",
+      "model": "YOYO2",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 13.6,
+        "source_url": "https://store-us.babyzen.com/pages/faq-key-figures",
+        "confidence": "high",
+        "notes": "6+ version; 6.2 kg"
+      },
+      "folded_dimensions_in": {
+        "length": 20.5,
+        "width": 17.3,
+        "height": 7.1,
+        "source_url": "https://store-us.babyzen.com/pages/faq-key-figures",
+        "confidence": "high",
+        "notes": "52 x 44 x 18 cm; cabin luggage approved"
+      },
+      "unfolded_dimensions_in": {
+        "length": 41.7,
+        "width": 17.3,
+        "height": 33.8,
+        "source_url": "https://store-us.babyzen.com/pages/faq-key-figures",
+        "confidence": "high",
+        "notes": "106 x 44 x 86 cm"
+      },
+      "max_child_weight_lb": {
+        "value": 48.5,
+        "source_url": "https://store-us.babyzen.com/pages/yoyo2-stroller-birth",
+        "confidence": "high",
+        "notes": "22 kg; US ASTM F833-19 certified"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "high"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "high",
+        "raw": "4-wheel"
+      },
+      "handlebar_type": {
+        "value": "fixed",
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Nuna, Cybex, Maxi-Cosi, Clek with adapters",
+        "source_url": "https://www.bebeangbaby.com/products/babyzen-yoyo2-6-complete-stroller-with-black-base",
+        "confidence": "medium"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban",
+          "smooth"
+        ],
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "medium",
+        "raw": [
+          "urban",
+          "smooth",
+          "travel"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://store-us.babyzen.com/pages/faq-key-figures",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://www.bebeangbaby.com/products/babyzen-yoyo2-6-complete-stroller-with-black-base"
+        ]
+      },
+      "configuration_scope": "6+ version; frame + seat + canopy",
+      "intended_use_category": "travel",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "compact fold (cabin approved)",
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact",
+          "cabin_approved"
+        ],
+        "raw": "compact fold (cabin approved)",
+        "source_url": "https://www.babyzen.com/us/yoyo-2",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "silver_cross_wave_us",
+      "brand": "Silver Cross",
+      "model": "Wave",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 30.8,
+        "source_url": "https://littlefolksnyc.com/products/silver-cross-wave-2021-complete-stroller",
+        "confidence": "medium",
+        "notes": "Chassis 22.2 lbs + Main Seat 4.4 lbs + Bassinet 8 lbs = ~34.6 lbs with bassinet; chassis + seat = ~26.6 lbs"
+      },
+      "folded_dimensions_in": {
+        "length": 37,
+        "width": 23,
+        "height": 15,
+        "source_url": "https://littlefolksnyc.com/products/silver-cross-wave-2021-complete-stroller",
+        "confidence": "medium"
+      },
+      "unfolded_dimensions_in": {
+        "length": 43,
+        "width": 23,
+        "height": 43,
+        "source_url": "https://littlefolksnyc.com/products/silver-cross-wave-2021-complete-stroller",
+        "confidence": "medium",
+        "notes": "Height 37-43\" adjustable"
+      },
+      "max_child_weight_lb": {
+        "value": 55,
+        "source_url": "https://silvercrossus.com/wave-product/",
+        "confidence": "high",
+        "notes": "Main seat and tandem seat both 55 lbs"
+      },
+      "seat_reversible": {
+        "value": true,
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium"
+      },
+      "wheel_diameters_in": {
+        "front": null,
+        "rear": null,
+        "source_url": null,
+        "confidence": "low"
+      },
+      "suspension_type": {
+        "value": "all_wheel",
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium",
+        "raw": "all-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable",
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium"
+      },
+      "travel_system_compatibility": {
+        "value": "Clek Liing, Cybex Aton/Cloud, Maxi-Cosi Mico/Coral, Nuna PIPA series with adapters",
+        "source_url": "https://silvercrossus.com/product/wave-3-single-to-double-stroller/",
+        "confidence": "high"
+      },
+      "terrain_tags": {
+        "value": [
+          "urban"
+        ],
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium",
+        "raw": [
+          "urban"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://silvercrossus.com/wave-product/",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://littlefolksnyc.com/products/silver-cross-wave-2021-complete-stroller",
+          "https://www.silvercrossbaby.com/us/wave/"
+        ]
+      },
+      "configuration_scope": "chassis + main_seat; bassinet separate (~8 lbs)",
+      "intended_use_category": "modular",
+      "fold_mechanism": {
+        "value": "unknown",
+        "raw": "compact fold",
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "compact fold",
+        "source_url": "https://www.silvercrossbaby.com/us/wave/",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "thule_urban_glide_2_us",
+      "brand": "Thule",
+      "model": "Urban Glide 2",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 25,
+        "source_url": "https://joylet.com/products/thule-urban-glide-2",
+        "confidence": "medium"
+      },
+      "folded_dimensions_in": {
+        "length": 34.2,
+        "width": 27.2,
+        "height": 13.3,
+        "source_url": "https://joylet.com/products/thule-urban-glide-2",
+        "confidence": "medium"
+      },
+      "unfolded_dimensions_in": {
+        "length": 41.1,
+        "width": 27.2,
+        "height": 40,
+        "source_url": "https://joylet.com/products/thule-urban-glide-2",
+        "confidence": "medium"
+      },
+      "max_child_weight_lb": {
+        "value": 75,
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high",
+        "notes": "Jogging stroller"
+      },
+      "wheel_diameters_in": {
+        "front": 12,
+        "rear": 16,
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high"
+      },
+      "suspension_type": {
+        "value": "rear_wheel",
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high",
+        "raw": "rear-wheel"
+      },
+      "handlebar_type": {
+        "value": "adjustable ergonomic",
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "Chicco KeyFit, Maxi-Cosi/Cybex Aton, UPPAbaby, Peg Perego, Graco, Britax with adapters",
+        "source_url": "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/thule-urban-glide-2",
+        "confidence": "low"
+      },
+      "terrain_tags": {
+        "value": [
+          "all_terrain",
+          "jogging"
+        ],
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high",
+        "raw": [
+          "all-terrain",
+          "jogging"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://joylet.com/products/thule-urban-glide-2",
+          "https://www.babygearlab.com/reviews/getting-around/jogging-stroller/thule-urban-glide-2"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy + air-filled wheels",
+      "intended_use_category": "jogging",
+      "fold_mechanism": {
+        "value": "one_hand",
+        "raw": "one-hand compact fold",
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high"
+      },
+      "fold_characteristics": {
+        "value": [
+          "compact"
+        ],
+        "raw": "one-hand compact fold",
+        "source_url": "https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924",
+        "confidence": "high"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    },
+    {
+      "product_id": "bob_revolution_flex_3_us",
+      "brand": "BOB Gear",
+      "model": "Revolution Flex 3.0",
+      "variant": "US",
+      "region": "US",
+      "stroller_weight_lb": {
+        "value": 28.5,
+        "source_url": "https://strolleria.com/products/bob-revolution-flex-3-0-jogging-stroller",
+        "confidence": "medium"
+      },
+      "folded_dimensions_in": {
+        "length": 39,
+        "width": 25.4,
+        "height": 35,
+        "source_url": "https://strolleria.com/products/bob-revolution-flex-3-0-jogging-stroller",
+        "confidence": "medium",
+        "notes": "Height seems high; may be 16\" per Amazon listing"
+      },
+      "unfolded_dimensions_in": {
+        "length": 43,
+        "width": 24.5,
+        "height": 48,
+        "source_url": "https://strolleria.com/products/bob-revolution-flex-3-0-jogging-stroller",
+        "confidence": "medium",
+        "notes": "Length 39-43\", Height 34.5-48\" (handlebar range)"
+      },
+      "max_child_weight_lb": {
+        "value": 75,
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high"
+      },
+      "seat_reversible": {
+        "value": false,
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high",
+        "notes": "Jogging stroller"
+      },
+      "wheel_diameters_in": {
+        "front": 12.5,
+        "rear": 16,
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high"
+      },
+      "suspension_type": {
+        "value": "adjustable",
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high",
+        "raw": "adjustable"
+      },
+      "handlebar_type": {
+        "value": "9-position adjustable",
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high"
+      },
+      "travel_system_compatibility": {
+        "value": "BOB Gear, Britax, Chicco, Graco, Peg Perego, Cybex, Maxi-Cosi, Nuna with adapters",
+        "source_url": "https://www.thebabyscrib.com/products/bob-revolution-flex-3-0-stroller",
+        "confidence": "medium"
+      },
+      "terrain_tags": {
+        "value": [
+          "all_terrain",
+          "jogging"
+        ],
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "high",
+        "raw": [
+          "all-terrain",
+          "jogging"
+        ]
+      },
+      "sources": {
+        "manufacturer_spec_page": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "manufacturer_manual_pdf": null,
+        "third_party": [
+          "https://strolleria.com/products/bob-revolution-flex-3-0-jogging-stroller",
+          "https://www.thebabyscrib.com/products/bob-revolution-flex-3-0-stroller"
+        ]
+      },
+      "configuration_scope": "frame + seat + canopy + air-filled wheels",
+      "intended_use_category": "jogging",
+      "fold_mechanism": {
+        "value": "two_step",
+        "raw": "two-step fold",
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "medium"
+      },
+      "fold_characteristics": {
+        "value": [],
+        "raw": "two-step fold",
+        "source_url": "https://www.bobgear.com/jogging-strollers/revolution-flex-3",
+        "confidence": "medium"
+      },
+      "source_accessed_at": "2025-12-14",
+      "provenance_summary": {
+        "has_region_mismatch": false,
+        "mismatched_fields": []
+      },
+      "recommendation_eligible": {
+        "weight_comparisons": true,
+        "size_comparisons": true,
+        "reason": null
+      }
+    }
+  ],
+  "summary": {
+    "payload_count": 19,
+    "dataset_total": 19,
+    "extracted_date": "2025-12-14",
+    "hardened_date": "2025-12-14"
+  },
+  "schema": {
+    "version": "0.4.0",
+    "core_fields": [
+      "stroller_weight_lb",
+      "folded_dimensions_in",
+      "max_child_weight_lb",
+      "seat_reversible",
+      "travel_system_compatibility"
+    ],
+    "supporting_fields": [
+      "unfolded_dimensions_in",
+      "wheel_diameters_in",
+      "suspension_type",
+      "handlebar_type",
+      "fold_mechanism",
+      "fold_characteristics",
+      "terrain_tags"
+    ],
+    "confidence_rubric": {
+      "high": "manufacturer_spec_page or manufacturer_manual_pdf only",
+      "medium": "reputable_retailer or consistent_third_party",
+      "low": "blogs, reviews, EU sources for US products, conflicting data"
+    },
+    "terrain_definitions": {
+      "smooth": "paved surfaces, indoor, mall floors, sidewalks",
+      "urban": "curbs, brick, light cobblestone, standard city streets",
+      "light_uneven": "gravel paths, packed dirt, grass",
+      "jogging": "manufacturer explicitly rates stroller for running; typically requires locked front wheel",
+      "all_terrain": "REQUIRES: air-filled tires + suspension + manufacturer claims off-road capability; if not all verified, use light_uneven instead"
+    },
+    "enum_definitions": {
+      "suspension_type": {
+        "all_wheel": "suspension on all 4 wheels",
+        "front_wheel": "front wheels only",
+        "rear_wheel": "rear wheels only",
+        "four_wheel_spring": "spring-based suspension on all wheels",
+        "adjustable": "user-adjustable suspension settings",
+        "none": "no suspension system",
+        "unknown": "suspension not verified"
+      },
+      "intended_use_category": {
+        "full_size": "standard everyday stroller for urban/suburban use",
+        "travel": "compact/lightweight optimized for airline travel",
+        "jogging": "designed and rated for running; typically 3-wheel with locking front",
+        "modular": "single-to-double convertible or multi-configuration system"
+      },
+      "fold_mechanism": {
+        "one_hand": "single action, achievable with one hand",
+        "two_step": "requires two distinct actions to complete",
+        "self_folding": "button-activated automatic folding (not just one-hand)",
+        "unknown": "fold mechanism not verified"
+      },
+      "fold_characteristics": {
+        "standing": "self-stands when folded",
+        "in_seat": "folds with seat remaining attached",
+        "compact": "folds to notably small dimensions",
+        "cabin_approved": "verified to fit airline overhead bins"
+      }
+    },
+    "computed_at_query_time": [
+      "data_completeness"
+    ],
+    "units": {
+      "weight": "lb",
+      "dimensions": "in",
+      "child_weight_capacity": "lb"
+    },
+    "provenance_schema": {
+      "source_region": "ISO region code of source (e.g., 'EU', 'US')",
+      "target_region": "intended region for this dataset (e.g., 'US')",
+      "region_mismatch": "boolean - true if source_region != target_region"
+    },
+    "recommendation_rules": {
+      "core_fields_for_ranking": [
+        "stroller_weight_lb",
+        "folded_dimensions_in",
+        "max_child_weight_lb"
+      ],
+      "required_confidence_for_ranking": [
+        "high",
+        "medium"
+      ],
+      "low_confidence_usage": "display only; not for comparisons or rankings",
+      "region_mismatch_handling": "fields with excluded_from_recommendations=true should not influence rankings"
+    }
+  }
+}

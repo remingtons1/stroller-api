@@ -1,0 +1,62 @@
+{
+  "info": {
+    "name": "Stroller Specs API",
+    "_postman_id": "b1f2c0c2-0000-0000-0000-000000000001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Ingest Dataset Snapshot",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/v1/datasets/strollers"
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"extracted_date\": \"2025-12-14\",\n  \"summary\": {\n    \"payload_count\": 19,\n    \"dataset_total\": 19,\n    \"extracted_date\": \"2025-12-14\",\n    \"hardened_date\": \"2025-12-14\"\n  },\n  \"schema\": {\n    \"version\": \"0.4.0\",\n    \"core_fields\": [\n      \"stroller_weight_lb\",\n      \"folded_dimensions_in\",\n      \"max_child_weight_lb\",\n      \"seat_reversible\",\n      \"travel_system_compatibility\"\n    ],\n    \"supporting_fields\": [\n      \"unfolded_dimensions_in\",\n      \"wheel_diameters_in\",\n      \"suspension_type\",\n      \"handlebar_type\",\n      \"fold_mechanism\",\n      \"fold_characteristics\",\n      \"terrain_tags\"\n    ],\n    \"units\": {\n      \"weight\": \"lb\",\n      \"dimensions\": \"in\",\n      \"child_weight_capacity\": \"lb\"\n    }\n  },\n  \"strollers\": [\n    {\n      \"product_id\": \"uppababy_cruz_v2_us\",\n      \"brand\": \"UPPAbaby\",\n      \"model\": \"Cruz V2\",\n      \"variant\": \"US\",\n      \"region\": \"US\",\n      \"stroller_weight_lb\": {\n        \"value\": 25.5,\n        \"source_url\": \"https://uppababy.com/cruz/\",\n        \"confidence\": \"high\",\n        \"notes\": \"Frame + seat + canopy; bumper bar inclusion unverified\"\n      },\n      \"folded_dimensions_in\": {\n        \"length\": 16.5,\n        \"width\": 22.8,\n        \"height\": 32.5,\n        \"source_url\": \"https://uppababy.com/cruz/\",\n        \"confidence\": \"high\"\n      },\n      \"max_child_weight_lb\": {\n        \"value\": 50,\n        \"source_url\": \"https://uppababy.com/cruz/\",\n        \"confidence\": \"high\"\n      },\n      \"seat_reversible\": {\n        \"value\": true,\n        \"source_url\": \"https://uppababy.com/cruz/\",\n        \"confidence\": \"high\"\n      },\n      \"travel_system_compatibility\": {\n        \"value\": \"Mesa direct; Chicco/Maxi-Cosi/Nuna/Cybex/Peg Perego with adapters\",\n        \"source_url\": \"https://uppababy.com/cruz/\",\n        \"confidence\": \"high\"\n      },\n      \"sources\": {\n        \"manufacturer_spec_page\": \"https://uppababy.com/cruz/\",\n        \"manufacturer_manual_pdf\": null,\n        \"third_party\": []\n      },\n      \"configuration_scope\": \"frame + seat + canopy; bumper bar unverified\",\n      \"intended_use_category\": \"full_size\",\n      \"source_accessed_at\": \"2025-12-14\"\n    },\n    {\n      \"product_id\": \"thule_urban_glide_2_us\",\n      \"brand\": \"Thule\",\n      \"model\": \"Urban Glide 2\",\n      \"variant\": \"US\",\n      \"region\": \"US\",\n      \"stroller_weight_lb\": {\n        \"value\": 25,\n        \"source_url\": \"https://joylet.com/products/thule-urban-glide-2\",\n        \"confidence\": \"medium\"\n      },\n      \"folded_dimensions_in\": {\n        \"length\": 34.2,\n        \"width\": 27.2,\n        \"height\": 13.3,\n        \"source_url\": \"https://joylet.com/products/thule-urban-glide-2\",\n        \"confidence\": \"medium\"\n      },\n      \"max_child_weight_lb\": {\n        \"value\": 75,\n        \"source_url\": \"https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924\",\n        \"confidence\": \"high\"\n      },\n      \"seat_reversible\": {\n        \"value\": false,\n        \"source_url\": \"https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924\",\n        \"confidence\": \"high\"\n      },\n      \"travel_system_compatibility\": {\n        \"value\": \"Chicco KeyFit, Maxi-Cosi/Cybex Aton, UPPAbaby, Peg Perego, Graco, Britax with adapters\",\n        \"source_url\": \"https://www.babygearlab.com/reviews/getting-around/jogging-stroller/thule-urban-glide-2\",\n        \"confidence\": \"low\"\n      },\n      \"sources\": {\n        \"manufacturer_spec_page\": \"https://www.thule.com/en-us/strollers/jogging-strollers/thule-urban-glide-2-_-10101924\",\n        \"manufacturer_manual_pdf\": null,\n        \"third_party\": [\n          \"https://joylet.com/products/thule-urban-glide-2\",\n          \"https://www.babygearlab.com/reviews/getting-around/jogging-stroller/thule-urban-glide-2\"\n        ]\n      },\n      \"configuration_scope\": \"frame + seat + canopy + air-filled wheels\",\n      \"intended_use_category\": \"jogging\",\n      \"source_accessed_at\": \"2025-12-14\"\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "List Strollers",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/v1/datasets/strollers?region=US&confidence_min=medium"
+        }
+      }
+    },
+    {
+      "name": "Compare",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/v1/compare"
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_ids\": [\n    \"uppababy_cruz_v2_us\",\n    \"thule_urban_glide_2_us\"\n  ],\n  \"region\": \"US\"\n}"
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.example.com"
+    }
+  ]
+}

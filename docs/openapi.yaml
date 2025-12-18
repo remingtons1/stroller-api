@@ -1,0 +1,80 @@
+openapi: 3.0.3
+info:
+  title: Stroller Specs API (Normalization + Provenance)
+  version: 0.1.0
+  description: >
+    API for ingesting stroller spec snapshots, normalizing fields, and serving
+    trust-scored comparisons with field-level provenance.
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/datasets/strollers:
+    get:
+      summary: List stroller records
+      parameters:
+        - in: query
+          name: region
+          schema: { type: string }
+        - in: query
+          name: intended_use_category
+          schema: { type: string }
+        - in: query
+          name: seat_reversible
+          schema: { type: boolean }
+        - in: query
+          name: confidence_min
+          schema:
+            type: string
+            enum: [high, medium, low]
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Ingest a dataset snapshot
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DatasetSnapshot'
+      responses:
+        '201':
+          description: Created
+  /v1/strollers/{product_id}:
+    get:
+      summary: Get a stroller by product_id
+      parameters:
+        - in: path
+          name: product_id
+          required: true
+          schema: { type: string }
+      responses:
+        '200': { description: OK }
+        '404': { description: Not Found }
+  /v1/compare:
+    post:
+      summary: Compare strollers apples-to-apples (trust-scored)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [product_ids]
+              properties:
+                product_ids:
+                  type: array
+                  minItems: 2
+                  maxItems: 6
+                  items: { type: string }
+                region: { type: string }
+                fields:
+                  type: array
+                  items: { type: string }
+      responses:
+        '200': { description: OK }
+components:
+  schemas:
+    DatasetSnapshot:
+      type: object
+      description: See JSON Schema file in this kit for full validation rules.
