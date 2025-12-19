@@ -80,6 +80,18 @@ def _field_value(stroller: Dict[str, Any], field: str) -> Tuple[Any, Optional[st
     return obj.get("value", obj), obj.get("confidence"), excluded
 
 
+def _get_str_field(stroller: Dict[str, Any], field: str, default: str = "") -> str:
+    """Extract string value from field that might be a plain string or a dict with 'value' key."""
+    val = stroller.get(field)
+    if val is None:
+        return default
+    if isinstance(val, str):
+        return val
+    if isinstance(val, dict):
+        return val.get("value") or default
+    return default
+
+
 def _has_low_conf_core(stroller: Dict[str, Any]) -> List[str]:
     low_fields: List[str] = []
     for f in ["stroller_weight_lb", "folded_dimensions_in", "max_child_weight_lb"]:
@@ -101,7 +113,7 @@ def _terrain_ok(stroller: Dict[str, Any], required: str) -> Tuple[bool, str]:
     tags = tags_obj.get("value") or []
     if required in tags:
         return True, ""
-    if required == "jogging" and stroller.get("intended_use_category") == "jogging":
+    if required == "jogging" and _get_str_field(stroller, "intended_use_category") == "jogging":
         return True, ""
     return False, f"terrain_not_matched:{required}"
 
@@ -157,7 +169,7 @@ def _disclosures(stroller: Dict[str, Any]) -> List[Disclosure]:
             )
         )
 
-    scope = stroller.get("configuration_scope") or ""
+    scope = _get_str_field(stroller, "configuration_scope")
     if "excludes" in scope or "separate" in scope:
         disclosures.append(
             Disclosure(
@@ -198,12 +210,15 @@ def evaluate(stroller: Dict[str, Any], constraints: Constraints) -> ProductResul
     else:
         status = "needs_review" if _has_low_conf_core(stroller) else "eligible"
 
+    # Extract string fields safely - they might be plain strings or dicts with 'value' key
+    variant_val = _get_str_field(stroller, "variant")
+
     return ProductResult(
         product_id=stroller["product_id"],
-        brand=stroller.get("brand", ""),
-        model=stroller.get("model", ""),
-        variant=stroller.get("variant"),
-        intended_use_category=stroller.get("intended_use_category"),
+        brand=_get_str_field(stroller, "brand"),
+        model=_get_str_field(stroller, "model"),
+        variant=variant_val if variant_val else None,
+        intended_use_category=_get_str_field(stroller, "intended_use_category") or None,
         eligibility=EligibilityStatus(status=status, reasons=reasons),
         required_disclosures=disclosures,
         refusals=refusals,
@@ -243,7 +258,7 @@ def list_strollers(
         # Apply filters
         if region and s.get("region") != region:
             continue
-        if intended_use_category and s.get("intended_use_category") != intended_use_category:
+        if intended_use_category and _get_str_field(s, "intended_use_category") != intended_use_category:
             continue
         if seat_reversible is not None:
             sr = (s.get("seat_reversible") or {}).get("value")
@@ -257,11 +272,11 @@ def list_strollers(
         
         results.append({
             "product_id": s["product_id"],
-            "brand": s.get("brand"),
-            "model": s.get("model"),
-            "variant": s.get("variant"),
+            "brand": _get_str_field(s, "brand"),
+            "model": _get_str_field(s, "model"),
+            "variant": _get_str_field(s, "variant") or None,
             "region": s.get("region"),
-            "intended_use_category": s.get("intended_use_category"),
+            "intended_use_category": _get_str_field(s, "intended_use_category") or None,
             "highlights": _highlights(s),
             "required_disclosures": [d.model_dump() for d in _disclosures(s)],
         })
