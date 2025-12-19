@@ -11211,58 +11211,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Graco",
-            "model": "Cradle Me Lite",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "folded_dimensions_in": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "unfolded_dimensions_in": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product is a baby carrier, not a stroller"
-            },
-            "sources": {
-                "manufacturer_spec_page": "https://www.gracobaby.com/shop/home-and-gear/carriers/cradle-me-lite-3-in-1-baby-carrier/SAP_2145561.html",
-                "third_party": [
-                    "https://www.amazon.com/Graco-Cradle-Lite-Carrier-Charcoal/dp/B08Q1M1F75",
-                    "https://www.target.com/p/graco-cradle-me-lite-3-in-1-baby-carrier/-/A-85764850"
-                ]
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2025-12-19"
-        },
-        {
             "product_id": "graco_travelite_standard_us",
             "brand": "Graco",
             "model": "Travelite",
@@ -11502,59 +11450,6 @@
                 ]
             },
             "intended_use_category": "lightweight",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product 'Graco Metro Plus' does not exist - Metro Plus is made by Ergobaby, not Graco"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
         },
         {
@@ -11951,59 +11846,6 @@
             },
             "intended_use_category": "lightweight",
             "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Graco",
-            "model": "SkyLine",
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer catalog"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2025-12-19"
         },
         {
             "product_id": "graco_citi_sport_standard_us",
@@ -17153,59 +16995,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Chicco",
-            "model": "Jazzy",
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product not found - Chicco Jazzy stroller model does not appear to exist on manufacturer or retailer websites"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "chicco_seety_standard_us",
             "brand": "Chicco",
             "model": "Seety",
@@ -17598,61 +17387,6 @@
             "source_accessed_at": "2025-12-19"
         },
         {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product not found on US manufacturer or retailer sites"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": [
-                    "https://strollberry.com/strollers/chicco-fully/"
-                ]
-            },
-            "intended_use_category": "modular",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "chicco_fully_twin_standard_us",
             "brand": "Chicco",
             "model": "Fully Twin",
@@ -17717,59 +17451,6 @@
             },
             "intended_use_category": "modular",
             "source_accessed_at": "2025-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Chicco Twin Jet model not found on manufacturer site or major retailers"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
         },
         {
             "product_id": "chicco_trio_sprint_standard_us",
@@ -18559,60 +18240,6 @@
             },
             "intended_use_category": "modular",
             "source_accessed_at": "2025-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "error": "Product 'Chicco Duo Artic' not found. The Chicco Artic was a discontinued single stroller (discontinued in 2015). Chicco does not appear to manufacture a product called 'Duo Artic'. Available Chicco double strollers include Cortina Together, BravoFor2, and Corso Flex.",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product does not exist"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product does not exist"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product does not exist"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
         },
         {
             "product_id": "chicco_duo_love_motion_standard_us",
@@ -20095,65 +19722,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Baby Jogger",
-            "model": "City Go Air",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "msrp_usd": {
-                "value": 349.99,
-                "source_url": "https://www.piccolinobaby.com/blogs/news/baby-jogger-city-go-air-infant-car-seat",
-                "confidence": "medium"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product is an infant car seat, not a stroller"
-            },
-            "travel_system_compatibility": {
-                "value": "Baby Jogger strollers",
-                "source_url": "https://www.amazon.com/Baby-Jogger-City-Infant-Granite/dp/B084DBGCBZ",
-                "confidence": "high"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": [
-                    "https://www.amazon.com/Baby-Jogger-City-Infant-Granite/dp/B084DBGCBZ",
-                    "https://www.anbbaby.com/products/baby-jogger-city-go-air-infant-car-seat",
-                    "https://www.piccolinobaby.com/blogs/news/baby-jogger-city-go-air-infant-car-seat"
-                ]
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "babyjogger_summit_360_standard_us",
             "brand": "Baby Jogger",
             "model": "Summit 360",
@@ -21123,59 +20691,6 @@
                 ]
             },
             "intended_use_category": "jogging",
-            "source_accessed_at": "2025-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "BOB Gear",
-            "model": "Alterrain Duallie",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product model does not exist in manufacturer lineup"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2025-12-19"
         },
         {
@@ -25466,23 +24981,6 @@
             "source_accessed_at": "2025-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Joovy",
-            "model": "Boot",
-            "variant": "Standard",
-            "region": "US",
-            "error": "Product is not a stroller - it is a utility shopping cart/wagon designed for cargo transport, not child transportation. Cannot extract stroller specifications for non-stroller product.",
-            "actual_product_category": "utility_cart",
-            "sources": {
-                "manufacturer_spec_page": "https://joovy.com/products/boot",
-                "third_party": [
-                    "https://www.target.com/p/joovy-boot-portable-collapsible-utility-shopping-cart/-/A-80379579",
-                    "https://www.amazon.com/Joovy-Lightweight-Shopping-Reusable-Removable/dp/B087MVZ1TT"
-                ]
-            },
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "joovy_bassinet_standard_us",
             "brand": "Joovy",
             "model": "Bassinet",
@@ -27274,59 +26772,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "evenflo",
-            "model": "advanced_modular",
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product not found - Evenflo Advanced Modular does not appear to be a current or valid model name"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "evenflo_gold_shyft_dualride_us",
             "brand": "Evenflo",
             "model": "Gold Shyft",
@@ -27630,59 +27075,6 @@
                     "https://www.amazon.com/Evenflo-Nurture-Infant-Seat-Henry/dp/B016UJHJ9Y",
                     "https://www.sndkids.com/products/evenflo-nurture-dlx-infant-car-seat-213080"
                 ]
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product does not exist - Evenflo EveryStage DLX is a car seat, not a stroller"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
             },
             "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
@@ -28004,9 +27396,6 @@
             },
             "intended_use_category": "travel",
             "source_accessed_at": "2025-12-19"
-        },
-        {
-            "error": "Product identification error - 'Safety 1st OnBoard FLX' is an infant car seat, not a stroller. The OnBoard FLX is designed to be used with compatible Safety 1st strollers (such as the Smooth Ride) as part of a travel system, but it is not a standalone stroller product. Please specify the actual stroller model you want specifications for."
         },
         {
             "product_id": "safety_1st_smooth_ride_qcm_us",
@@ -30976,59 +30365,6 @@
             "source_accessed_at": "2025-12-19"
         },
         {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2025-12-19"
-        },
-        {
             "product_id": "babytrend_ezride_standard_us",
             "brand": "Baby Trend",
             "model": "EZ Ride",
@@ -31588,16 +30924,6 @@
             },
             "intended_use_category": "travel",
             "source_accessed_at": "2025-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "error": "Product not found",
-            "error_details": "Baby Trend Yumi is not a stroller model. 'Yumi' refers to a Baby Trend booster car seat (PROtect Yumi 2-in-1 Folding Booster Seat), not a stroller. Baby Trend's stroller lineup includes Passport, EZ Ride, Sonar, Sit N' Stand, Expedition, and other series, but no model named 'Yumi'.",
-            "source_accessed_at": "2024-12-19"
         },
         {
             "product_id": "baby_trend_morph_standard_us",
@@ -32372,59 +31698,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Mompush",
-            "model": null,
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "no Mompush Gravity model found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "mamazing_ultra_air_standard_us",
             "brand": "MAMAZING",
             "model": "Ultra Air",
@@ -33117,59 +32390,6 @@
                 ]
             },
             "intended_use_category": "double",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Dream On Me",
-            "model": "Geni Lite",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "product not found on manufacturer site or major retailers"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
         },
         {
@@ -35185,168 +34405,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Joymor",
-            "model": "Convertible Pram",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": [
-                    "https://www.joymor.com/",
-                    "https://www.joymor.com/collections/baby-toddler"
-                ]
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2025-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "ingenuity_3d_mini_standard_us",
             "brand": "Ingenuity",
             "model": "3D Mini",
@@ -35549,59 +34607,6 @@
                 ]
             },
             "intended_use_category": "lightweight",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Ingenuity",
-            "model": "3D Flip",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product model '3D Flip' not found on manufacturer site or major retailers"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
         },
         {
@@ -36442,59 +35447,6 @@
             "source_accessed_at": "2025-12-19"
         },
         {
-            "product_id": null,
-            "brand": null,
-            "model": null,
-            "variant": null,
-            "region": null,
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product 'Tot Sport' not found - only 'Cloud Sport' exists from Kolcraft"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "cosco_lift_stroll_dx_us",
             "brand": "Cosco",
             "model": "Lift & Stroll",
@@ -36750,63 +35702,6 @@
                 ]
             },
             "intended_use_category": "lightweight",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Cosco",
-            "model": "Scenera Next",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product is a car seat, not a stroller"
-            },
-            "sources": {
-                "manufacturer_spec_page": "https://www.coscokids.com/scenera-next-convertible-car-seat-cc140-ck-us-en.html",
-                "third_party": [
-                    "https://csftl.org/cosco-scenera-next-review-update/",
-                    "https://www.safeintheseat.com/seats/cosco-scenera-next-usa",
-                    "https://parenthoodadventures.com/cosco-scenera-travel-car-seat-review/"
-                ]
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
         },
         {
@@ -37125,59 +36020,6 @@
                 ]
             },
             "intended_use_category": "wagon",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Delta Children",
-            "model": "Jeep Compass",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
             "source_accessed_at": "2024-12-19"
         },
         {
@@ -37997,59 +36839,6 @@
             "travel_system_compatibility": {
                 "value": null,
                 "missing_reason": "Product 'Century Dash' not found on manufacturer site or retailer sites"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Century",
-            "model": "Goody2Go",
-            "variant": null,
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product 'Century Goody2Go' not found on manufacturer site or major retailers"
             },
             "sources": {
                 "manufacturer_spec_page": null,
@@ -39728,63 +38517,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Gladly Family",
-            "model": "AnthemAll",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "Product 'Gladly Family AnthemAll' not found on manufacturer site or retailer pages - only Anthem2, Anthem4, and AnthemZ models exist"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": [
-                    "https://gladlyfamily.com/products/anthem-2-seater-all-terrain-wagon-stroller",
-                    "https://gladlyfamily.com/products/anthem4-all-terrain-wagon-stroller",
-                    "https://gladlyfamily.com/products/anthemz\u2122-all-terrain-stroller-wagon"
-                ]
-            },
-            "intended_use_category": "wagon",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "evenflo_pivot_xplore_standard_us",
             "brand": "Evenflo",
             "model": "Pivot Xplore",
@@ -41102,82 +39834,6 @@
             "source_accessed_at": "2024-12-19"
         },
         {
-            "product_id": null,
-            "brand": "Zoe",
-            "model": "XL2",
-            "variant": "Sport",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "seat_reversible": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "msrp_usd": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "recline_positions": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "source_url": null,
-                "confidence": null,
-                "missing_reason": "Sport variant not found on manufacturer or retailer sites"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": [
-                    "https://www.babygearlab.com/reviews/getting-around/double-travel-stroller/zoe-xl2-deluxe",
-                    "https://goodbuygear.com/products/zoe-twin-xl2",
-                    "https://www.babygearlab.com/reviews/getting-around/double-travel-stroller/zoe-xl2-best-v2",
-                    "https://zoebaby.com/collections/doubles"
-                ]
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2024-12-19"
-        },
-        {
             "product_id": "zoe_xl3_best_v2_us",
             "brand": "Zoe",
             "model": "XL3",
@@ -41443,59 +40099,6 @@
             },
             "intended_use_category": "double",
             "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "Contours",
-            "model": "Options 2 to 1",
-            "variant": "Standard",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "not found on manufacturer site"
-            },
-            "sources": {
-                "manufacturer_spec_page": null,
-                "third_party": []
-            },
-            "intended_use_category": null,
-            "source_accessed_at": "2025-12-19"
         },
         {
             "product_id": "contours_curve_v2_us",
@@ -44004,65 +42607,6 @@
                 ]
             },
             "intended_use_category": "double",
-            "source_accessed_at": "2024-12-19"
-        },
-        {
-            "product_id": null,
-            "brand": "GB",
-            "model": "Pockit Plus All-City",
-            "variant": "Double",
-            "region": "US",
-            "stroller_weight_lb": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "folded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "max_child_weight_lb": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "seat_reversible": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "msrp_usd": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "unfolded_dimensions_in": {
-                "length": null,
-                "width": null,
-                "height": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "min_child_age_months": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "recline_positions": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "travel_system_compatibility": {
-                "value": null,
-                "missing_reason": "GB Pockit Plus All-City Double variant does not exist - only single versions available"
-            },
-            "sources": {
-                "manufacturer_spec_page": "https://gb-online.com/en-us/strollers/pockit-all-city",
-                "third_party": [
-                    "https://www.babygearlab.com/reviews/getting-around/travel-stroller/gb-pockit-plus-all-city",
-                    "https://buenobabyofficial.com/products/gb-pockit-plus-all-city-cabin-size-stroller",
-                    "https://www.madeformums.com/reviews/gb-pockit-all-city-pushchair-review/",
-                    "https://www.anbbaby.com/products/gb-pockit-plus-all-city-stroller",
-                    "https://www.albeebaby.com/gb-pockit-plus-all-city-stroller-velvet-black.html"
-                ]
-            },
-            "intended_use_category": "travel",
             "source_accessed_at": "2024-12-19"
         },
         {
