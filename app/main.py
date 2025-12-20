@@ -304,6 +304,245 @@ def get_stroller(product_id: str) -> Dict[str, Any]:
     return {"error": "not_found", "product_id": product_id}
 
 
+class EnrichRequest(BaseModel):
+    """Request to enrich a product from Shopify or other source with trust-scored specs."""
+    brand: Optional[str] = Field(default=None, description="Brand name to match (e.g., 'UPPAbaby')")
+    model: Optional[str] = Field(default=None, description="Model name to match (e.g., 'Vista V3')")
+    query: Optional[str] = Field(default=None, description="Free-text search (e.g., 'uppababy vista')")
+    shopify_title: Optional[str] = Field(default=None, description="Product title from Shopify Catalog API")
+    constraints: Constraints = Field(default_factory=Constraints, description="Optional constraints to evaluate eligibility")
+
+
+class EnrichedSpec(BaseModel):
+    """A single spec field with provenance."""
+    value: Any
+    confidence: Optional[str] = None
+    source_url: Optional[str] = None
+
+
+class EnrichResponse(BaseModel):
+    """Enrichment response with trust-scored specs."""
+    matched: bool
+    match_score: Optional[float] = None
+    product_id: Optional[str] = None
+    brand: Optional[str] = None
+    model: Optional[str] = None
+    variant: Optional[str] = None
+    
+    # Trust-scored specs
+    specs: Optional[Dict[str, EnrichedSpec]] = None
+    
+    # Eligibility (if constraints provided)
+    eligibility: Optional[EligibilityStatus] = None
+    required_disclosures: List[Disclosure] = Field(default_factory=list)
+    refusals: List[str] = Field(default_factory=list)
+    
+    # For agents: a summary they can cite
+    citation_summary: Optional[str] = None
+
+
+def _normalize(s: str) -> str:
+    """Normalize string for matching."""
+    import re
+    return re.sub(r'[^a-z0-9]', '', s.lower())
+
+
+def _match_score(stroller: Dict[str, Any], brand: Optional[str], model: Optional[str], query: Optional[str]) -> float:
+    """Calculate match score between stroller and search criteria."""
+    score = 0.0
+    s_brand = _normalize(_get_str_field(stroller, "brand"))
+    s_model = _normalize(_get_str_field(stroller, "model"))
+    s_variant = _normalize(_get_str_field(stroller, "variant"))
+    
+    if brand:
+        n_brand = _normalize(brand)
+        if n_brand == s_brand:
+            score += 0.5
+        elif n_brand in s_brand or s_brand in n_brand:
+            score += 0.3
+    
+    if model:
+        n_model = _normalize(model)
+        if n_model == s_model:
+            score += 0.5
+        elif n_model in s_model or s_model in n_model:
+            score += 0.3
+        elif n_model in s_variant or s_variant in n_model:
+            score += 0.2
+    
+    if query:
+        n_query = _normalize(query)
+        full_name = s_brand + s_model + s_variant
+        # Check how many query terms appear in full name
+        query_terms = n_query.split()
+        if not query_terms:
+            query_terms = [n_query]
+        matches = sum(1 for t in query_terms if t in full_name or full_name in t)
+        score += 0.5 * (matches / max(len(query_terms), 1))
+    
+    return min(score, 1.0)
+
+
+def _extract_specs(stroller: Dict[str, Any]) -> Dict[str, EnrichedSpec]:
+    """Extract key specs with provenance."""
+    specs = {}
+    
+    # Weight
+    w_obj = stroller.get("stroller_weight_lb") or {}
+    if isinstance(w_obj, dict) and w_obj.get("value") is not None:
+        specs["stroller_weight_lb"] = EnrichedSpec(
+            value=w_obj.get("value"),
+            confidence=w_obj.get("confidence"),
+            source_url=w_obj.get("source_url")
+        )
+    
+    # Folded dimensions
+    fd = stroller.get("folded_dimensions_in") or {}
+    if isinstance(fd, dict) and all(k in fd for k in ["length", "width", "height"]):
+        specs["folded_dimensions_in"] = EnrichedSpec(
+            value={"length": fd["length"], "width": fd["width"], "height": fd["height"]},
+            confidence=fd.get("confidence"),
+            source_url=fd.get("source_url")
+        )
+    
+    # Max child weight
+    mcw = stroller.get("max_child_weight_lb") or {}
+    if isinstance(mcw, dict) and mcw.get("value") is not None:
+        specs["max_child_weight_lb"] = EnrichedSpec(
+            value=mcw.get("value"),
+            confidence=mcw.get("confidence"),
+            source_url=mcw.get("source_url")
+        )
+    
+    # Seat reversible
+    sr = stroller.get("seat_reversible") or {}
+    if isinstance(sr, dict):
+        specs["seat_reversible"] = EnrichedSpec(
+            value=sr.get("value"),
+            confidence=sr.get("confidence"),
+            source_url=sr.get("source_url")
+        )
+    
+    # Travel system compatibility
+    tsc = stroller.get("travel_system_compatibility") or {}
+    if isinstance(tsc, dict) and tsc.get("value"):
+        specs["travel_system_compatibility"] = EnrichedSpec(
+            value=tsc.get("value"),
+            confidence=tsc.get("confidence"),
+            source_url=tsc.get("source_url")
+        )
+    
+    # Terrain tags
+    tt = stroller.get("terrain_tags") or {}
+    if isinstance(tt, dict) and tt.get("value"):
+        specs["terrain_tags"] = EnrichedSpec(
+            value=tt.get("value"),
+            confidence=tt.get("confidence"),
+            source_url=tt.get("source_url")
+        )
+    
+    return specs
+
+
+def _build_citation(stroller: Dict[str, Any], specs: Dict[str, EnrichedSpec]) -> str:
+    """Build a citation-ready summary for AI agents."""
+    parts = []
+    brand = _get_str_field(stroller, "brand")
+    model = _get_str_field(stroller, "model")
+    
+    parts.append(f"The {brand} {model}")
+    
+    if "stroller_weight_lb" in specs:
+        parts.append(f"weighs {specs['stroller_weight_lb'].value} lbs")
+    
+    if "max_child_weight_lb" in specs:
+        parts.append(f"supports children up to {specs['max_child_weight_lb'].value} lbs")
+    
+    if "seat_reversible" in specs:
+        rev = "has a reversible seat" if specs["seat_reversible"].value else "does not have a reversible seat"
+        parts.append(rev)
+    
+    # Add source attribution
+    sources = set()
+    for spec in specs.values():
+        if spec.source_url:
+            sources.add(spec.source_url.split("/")[2] if "/" in spec.source_url else spec.source_url)
+    
+    summary = ", ".join(parts[:2])
+    if len(parts) > 2:
+        summary += ", and " + parts[2]
+    summary += "."
+    
+    if sources:
+        summary += f" (Source: {', '.join(list(sources)[:2])})"
+    
+    return summary
+
+
+@app.post("/v1/enrich", response_model=EnrichResponse)
+def enrich_product(req: EnrichRequest) -> EnrichResponse:
+    """
+    Enrich a product from Shopify Catalog API (or other source) with trust-scored specs.
+    
+    Use this endpoint after calling Shopify's Catalog API to get verified specifications,
+    provenance, and safety disclosures that Shopify doesn't provide.
+    
+    Match by brand+model, free-text query, or Shopify product title.
+    """
+    dataset = _load_dataset()
+    strollers: List[Dict[str, Any]] = dataset.get("strollers") or []
+    
+    # Use shopify_title as query if provided
+    query = req.query or req.shopify_title
+    
+    if not req.brand and not req.model and not query:
+        return EnrichResponse(matched=False)
+    
+    # Find best match
+    best_match = None
+    best_score = 0.0
+    
+    for s in strollers:
+        score = _match_score(s, req.brand, req.model, query)
+        if score > best_score:
+            best_score = score
+            best_match = s
+    
+    # Require minimum match quality
+    if best_score < 0.3 or best_match is None:
+        return EnrichResponse(matched=False, match_score=best_score)
+    
+    # Extract specs with provenance
+    specs = _extract_specs(best_match)
+    
+    # Evaluate constraints if provided
+    eligibility = None
+    disclosures = _disclosures(best_match)
+    refusals: List[str] = []
+    
+    if req.constraints:
+        result = evaluate(best_match, req.constraints)
+        eligibility = result.eligibility
+        refusals = result.refusals
+    
+    # Build citation
+    citation = _build_citation(best_match, specs)
+    
+    return EnrichResponse(
+        matched=True,
+        match_score=round(best_score, 2),
+        product_id=best_match["product_id"],
+        brand=_get_str_field(best_match, "brand"),
+        model=_get_str_field(best_match, "model"),
+        variant=_get_str_field(best_match, "variant") or None,
+        specs=specs,
+        eligibility=eligibility,
+        required_disclosures=disclosures,
+        refusals=refusals,
+        citation_summary=citation,
+    )
+
+
 @app.post("/v1/eligible-products", response_model=EligibleProductsResponse)
 def eligible_products(req: EligibleProductsRequest) -> EligibleProductsResponse:
     """Filter products by constraints, returning eligibility status, disclosures, and refusals."""
